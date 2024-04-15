@@ -1,0 +1,224 @@
+{
+    "global": {
+        "app": "App Name",
+        "version": "1.0.0",
+        "theme": [
+            {
+                "name": "Light",
+                "value": "light",
+                "default": true
+            },
+            {
+                "name": "Dark",
+                "value": "dark"
+            }
+        ],
+        "colors": {
+            "primary": 31006, // "0x007bff" decimal 31006
+            "secondary": 7105645, // "#6c757d" decimal 7105645
+            "success": 2662469, // "#28a745" decimal 2662469
+            "info": 15277608, // "#17a2b8" decimal 15277608
+            "warning": 16705372, // "#ffc107" decimal 16705372
+            "danger": 14495300, // "#dc3545" decimal 14495300
+            "light": 16316664, // "#f8f9fa" decimal 16316664
+            "dark": 2237924 // "#343a40" decimal 2237924
+        },
+        "font": {
+            "family": "Arial, sans-serif"
+        },
+        "language": [
+            {
+                "name": "English",
+                "value": "en",
+                "default": true
+            },
+            {
+                "name": "French",
+                "value": "fr"
+            },
+            {
+                "name": "Spanish",
+                "value": "es"
+            }
+        ],
+        "launchIcon": {
+            "icon": "icon.png",
+            "color": 31006, // "#007bff" decimal 31006
+        },
+        "launchScreen": { // splash screen
+            "background": 16316664, // #f8f9fa" decimal 16316664
+            "color": 31006, // "#007bff" decimal 31006
+            "logo": "logo.png"
+        },
+        "ui_components": {
+            // button
+            "button": {
+                "color": 31006, // "#007bff" decimal 31006
+                "background": 16316664, // "#f8f9fa" decimal 16316664
+                "border": {
+                    "color": 31006, // "#007bff" decimal 31006
+                    "width": 1
+                },
+                "borderRadius": 5,
+                "padding": {
+                    "top": 10,
+                    "right": 20,
+                    "bottom": 10,
+                    "left": 20
+                },
+                "margin": {
+                    "top": 10,
+                    "right": 10,
+                    "bottom": 10,
+                    "left": 10
+                },
+                "hover": {
+                    "color": 16316664, // "#f8f9fa" decimal 16316664
+                    "background": 31006 // "#007bff" decimal 31006
+                },
+                "states": {
+                    "active": {
+                        "color": 31006, // "#007bff" decimal 31006
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "disabled": {
+                        "color": 16316664, // "#f8f9fa" decimal 16316664
+                        "background": 31006 // "#007bff" decimal 31006
+                    }
+                },
+                "styles": {
+                    "primary": {
+                        "color": 31006, // "#007bff" decimal 31006
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "secondary": {
+                        "color": 16316664, // "#f8f9fa" decimal 16316664
+                        "background": 31006 // "#007bff" decimal 31006
+                    },
+                    "success": {
+                        "color": 2662469, // "#28a745" decimal 2662469
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "info": {
+                        "color": 15277608, // "#17a2b8" decimal 15277608
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "warning": {
+                        "color": 16705372, // "#ffc107" decimal 16705372
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "danger": {
+                        "color": 14495300, // "#dc3545" decimal 14495300
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    }
+                }
+            },
+            // input
+            "input": {
+                "color": 31006, // "#007bff" decimal 31006
+                "background": 16316664, // "#f8f9fa" decimal 16316664
+                "border": {
+                    "color": 31006, // "#007bff" decimal 31006
+                    "width": 1
+                },
+                "borderRadius": 5,
+                "padding": {
+                    "top": 10,
+                    "right": 20,
+                    "bottom": 10,
+                    "left": 20
+                },
+                "margin": {
+                    "top": 10,
+                    "right": 10,
+                    "bottom": 10,
+                    "left": 10
+                },
+                "hover": {
+                    "color": 16316664, // "#f8f9fa" decimal 16316664
+                    "background": 31006 // "#007bff" decimal 31006
+                },
+                "states": {
+                    "active": {
+                        "color": 31006, // "#007bff" decimal 31006
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "disabled": {
+                        "color": 16316664, // "#f8f9fa" decimal 16316664
+                        "background": 31006 // "#007bff" decimal 31006
+                    }
+                },
+                "styles": {
+                    "primary": {
+                        "color": 31006, // "#007bff" decimal 31006
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "secondary": {
+                        "color": 16316664, // "#f8f9fa" decimal 16316664
+                        "background": 31006 // "#007bff" decimal 31006
+                    },
+                    "success": {
+                        "color": 2662469, // "#28a745" decimal 2662469
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "info": {
+                        "color": 15277608, // "#17a2b8" decimal 15277608
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "warning": {
+                        "color": 16705372, // "#ffc107" decimal 16705372
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    },
+                    "danger": {
+                        "color": 14495300, // "#dc3545" decimal 14495300
+                        "background": 16316664 // "#f8f9fa" decimal 16316664
+                    }
+                }
+            }
+        }
+    },
+    "components_by_id": [
+        { // button with icon
+            "id": "purchase",
+            "type": "button",
+            "text": "Purchase",
+            "style": "primary",
+            "icon": "icon.png",
+            "action": "purchase",
+            "if": [
+                {
+                    "condition": "user",
+                    "operator": "is",
+                    "value": "logged in",
+                    "then": "show"
+                },
+                {
+                    "condition": "user",
+                    "operator": "is",
+                    "value": "logged out",
+                    "then": "disabled"
+                }
+            ]
+        },
+        {
+            "id": "delete_task",
+            "type": "button",
+            "text": "Delete",
+            "style": "danger",
+            "icon": "icon.png",
+            "action": "open_delete_task_dialog"
+        },
+        {
+            "id": "task_name",
+            "type": "input",
+            "validation": {
+                "required": true,
+                "min": 3,
+                "max": 50
+            },
+            "placeholder": "Enter task name",
+            "action": "input_task_name"
+        }
+    ]
+    
+}
